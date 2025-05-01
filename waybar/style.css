@@ -348,6 +348,10 @@ window#waybar.hidden {
   background-color: #f2cdcd;
 }
 
+#custom-cava_mviz {
+  border-radius: 8px;
+  margin-left: 12px;
+}
 
 tooltip {
   border-radius: 8px;
@@ -359,3 +363,4 @@ tooltip label {
   padding: 5px;
   background-color: #131822;
 }
+

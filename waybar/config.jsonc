@@ -6,7 +6,7 @@
     "modules-left": [
         "custom/logo",
         "hyprland/workspaces",
-	      "custom/cava"
+        "custom/cava_mviz"
     ],
     "modules-center": [
         "clock"
@@ -64,21 +64,21 @@
         "tooltip-format": "{calendar}",
         "format-alt": "  {:%a, %d %b %Y}",
         "format": "  {:%I:%M:%S %p}",
-	"interval": 1
+        "interval": 1
     },
     "network": {
         "format-wifi" : "{icon}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "󰀂",
-	"format-alt" : "󱛇",
+        "format-alt" : "󱛇",
         "format-disconnected" : "󰖪",
-	"tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-	"tooltip-format-disconnected": "Disconnected",
-	"on-click": "~/.config/rofi/wifi/wifi.sh &",
+        "tooltip-format-disconnected": "Disconnected",
+        "on-click": "~/.config/rofi/wifi/wifi.sh &",
         "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
-	"interval": 5,
-	"nospacing": 1,
+        "interval": 5,
+        "nospacing": 1,
     },
     "wireplumber": {
         "format": "{icon}",
@@ -139,11 +139,10 @@
         "tooltip": false,
         "on-click": "~/.config/hypr/power_menu.sh &"
     },
-    "custom/cava": {
-  	"format": "{}",
-  	"exec": "~/.config/waybar/scripts/cava-reader.sh",
-  	"return-type": "json",
-  	"interval": "once",
-  	"on-click": "~/.config/waybar/scripts/cava.sh"
+    "custom/cava_mviz": {
+        "exec": "~/.config/waybar/scripts/WaybarCava.sh",
+        "format": "{}"
+
     }
 }
+
