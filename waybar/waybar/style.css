@@ -66,9 +66,7 @@ window#waybar.hidden {
 }
 
 #custom-power {
-    padding-left: 8px;
-    padding-right: 9px;
-    margin: 6px 3px;
+  margin-right: 6px;
 }
 
 #custom-logo {
