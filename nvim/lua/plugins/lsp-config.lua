@@ -21,6 +21,21 @@ return {
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.clangd.setup({ capabilities = capabilities })
 			lspconfig.cssls.setup({ capabilities = capabilities })
+
+			-- Configure diagnostics to display inline
+			vim.diagnostic.config({
+				virtual_text = {
+					source = true,
+					prefix = '●',
+					spacing = 4,
+				},
+				float = {
+					source = "always",
+					border = "rounded",
+				},
+				severity_sort = true,
+			})
+
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})

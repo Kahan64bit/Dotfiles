@@ -4,3 +4,9 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 4
 vim.opt.smartindent = true
 vim.opt.autoindent = true
+vim.opt.number = true
+
+vim.opt.termguicolors = true
+
+
+
