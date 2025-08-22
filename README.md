@@ -13,7 +13,7 @@ Minimal, performant, and aesthetic dotfiles built around **Hyprland** on **Fedor
 - 🖥️ **Compositor/WM**: [Hyprland](https://hyprland.org/)
 - 🐚 **Shell**: [Zsh](https://www.zsh.org/)
 - 🛠️ **Shell Framework**: [Oh My Zsh](https://ohmyz.sh/)
-- 📝 **Prompt**: [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- 📝 **Prompt**: [Starship]([https://github.com/romkatv/powerlevel10k](https://starship.rs/))
 - 👨‍💻 **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/) 
 - 📊 **Status Bar**: [Waybar](https://github.com/Alexays/Waybar)
 - 🧠 **Launcher**: [Wofi](https://sr.ht/~scoopta/wofi/) *Will change to Rofi soon*
@@ -29,7 +29,7 @@ Minimal, performant, and aesthetic dotfiles built around **Hyprland** on **Fedor
 - 🖥️ **Tiling Manager**: [Yabai](https://github.com/koekeishiya/yabai)
 - 🐚 **Shell**: [Zsh](https://www.zsh.org/)
 - 🛠️ **Shell Framework**: [Oh My Zsh](https://ohmyz.sh/)
-- 📝 **Prompt**: [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- 📝 **Prompt**: [Starship]([https://github.com/romkatv/powerlevel10k](https://starship.rs/))
 - 👨‍💻 **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/) 
 - 📊 **Status Bar**: [SketchyBar](https://github.com/FelixKratz/SketchyBar)
 - 🧠 **Launcher**: Spotlight *Might Change Soon... Depends on my workflow needs*
