@@ -7,6 +7,5 @@ vim.opt.autoindent = true
 vim.opt.number = true
 
 vim.opt.termguicolors = true
-
-
-
+vim.g.mapleader = " "
+-- Enable Neotree at startup
