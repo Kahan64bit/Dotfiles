@@ -9,7 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
-                ensure_installed = { "lua_ls", "cssls", "clangd"}, -- visit https://github.com/williamboman/mason-lspconfig.nvim for lsp list
+                ensure_installed = { "lua_ls", "cssls", "clangd", "pyright"}, -- visit https://github.com/williamboman/mason-lspconfig.nvim for lsp list
             })
         end,
     },
