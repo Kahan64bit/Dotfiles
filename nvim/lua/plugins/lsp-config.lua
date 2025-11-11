@@ -21,6 +21,7 @@ return {
             lspconfig.lua_ls.setup({ capabilities = capabilities })
             lspconfig.clangd.setup({ capabilities = capabilities })
             lspconfig.cssls.setup({ capabilities = capabilities })
+            lspconfig.pyright.setup({ capabilities = capabilities })
 
             -- Configure diagnostics to display inline
             vim.diagnostic.config({
